@@ -1,0 +1,131 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+* {
+    font-family:'Lato', sans-serif;
+}
+
+    
+aside{
+    background-color: #3f0e40;
+    color:#b29fb2;
+    padding: 1em;
+    width:220px;
+}
+
+aside h1{
+margin: 0;
+color: #fbfbfb;
+font:800 1.4em 'Lato', sans-serif;
+display: inline-block;
+margin-right: 1em;
+}
+
+.fa-chevron-down{
+    font-size: 10px;
+    padding: 10px;
+    color: #fbfbfb;
+}
+
+.sidebar-header{
+    margin-bottom: 20px;
+font:600 1em 'Lato', sans-serif;
+}
+.fa-bell{
+    font-size: 22px;
+    padding: 0 0 0 1.5em;
+}
+
+.fa-circle{
+    color:#38978d;
+    font-size: 15px;
+}
+
+aside input{
+    background-color:#260127;
+    border:none;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+}
+/* channels */
+
+aside h4{
+    margin: 11px 0;
+}
+
+.fa-plus-circle{
+    font-size: 14px;
+    padding: 3px 0 0 8em;
+    color: #fbfbfb;
+}
+
+
+aside a{
+    text-decoration: none;
+    color:#b29fb2;
+    font: 600 1em 'Lato', sans-serif;
+}
+
+aside ul{
+    padding: 0px; 
+    margin: 0px;
+}
+
+aside li{
+    list-style: none;
+    padding: 3px 0px;
+}
+
+
+aside i{
+    margin-right: 5px; 
+    font-size: 15px;
+}
+
+
+.threads{
+    margin:9px 0px 28px 0px 
+}
+
+
+/* main chat area */
+
+section{
+    padding: 0.8em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-icons h2{
+    font:800 1.5em 'Lato', sans-serif;
+    margin: 0px;
+}
+
+.chat-icons i{
+    padding: 5px 3px;
+    color:#636263;
+    font-size: 12px;
+    border-right: solid 1px #636263;
+}
+
+.chat-search i{
+    padding: 5px 3px;
+    color:#636263;
+    font-size: 16px;
+}
+
+.chat-search input{
+border-radius: 5px;
+border: solid 1px #636263;
+padding: 5px 5px;
+}
